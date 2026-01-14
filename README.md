@@ -68,6 +68,5 @@ Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 �
 ---
 
 ## 📬 Contact
-* **Author:** [본인 이름]
-* **Role:** FPGA Logic Design & Embedded FW Development
-* **Email:** [이메일 주소]
+* **Author:** [류우상]
+* **Email:** [rys32@naver.com]
