@@ -13,7 +13,7 @@ Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 �
 가장 중요한 성과는 **순차 처리(CPU)**와 **병렬 처리(FPGA)**의 성능 차이를 정량적으로 검증한 것입니다.
 
 ![Speed Comparison](images/speed_comparison.png)
-*(위치: Python 대비 138배 속도 향상 그래프)*
+
 
 | Platform | Processing Time (Latency) | Speedup | Note |
 | :--- | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 �
 시스템은 **PS(Processing System)**와 **PL(Programmable Logic)**이 AXI Bus로 연결된 **이기종 컴퓨팅(Heterogeneous Computing)** 구조입니다.
 
 ![System Architecture](images/architecture.png)
-*(위치: 전체 시스템 블록 다이어그램)*
+
 
 ### 1. Programmable Logic (Hardware Area)
 * **Camera Interface:** OV7670 센서의 Raw 데이터를 클럭 단위로 수신.
@@ -49,11 +49,11 @@ Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 �
 
 ### 1. Tracking & Alignment (Stage Demo)
 ![Stage Demo](images/demo_stage.gif)
-*(Note: 객체가 움직이면 모터가 따라가서 중앙에 맞추는 영상)*
+
 
 ### 2. CNN Inference (CNN Demo)
 ![CNN Demo](images/demo_cnn.gif)
-*(Note: 정렬된 객체를 인식하고 HDMI 모니터나 터미널에 결과를 띄우는 영상)*
+
 
 ---
 
