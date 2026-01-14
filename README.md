@@ -48,11 +48,11 @@ Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 �
 실제 FPGA 보드에서 카메라 입력에 따라 모터가 반응하고 추론하는 모습입니다.
 
 ### 1. Tracking & Alignment (Stage Demo)
-![Stage Demo](images/demo_stage.gif)
+![Stage Demo](images/stage.mp4)
 
 
 ### 2. CNN Inference (CNN Demo)
-![CNN Demo](images/demo_cnn.gif)
+![CNN Demo](images/video_i.mp4)
 
 
 ---
