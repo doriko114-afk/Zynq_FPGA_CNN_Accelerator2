@@ -2,7 +2,7 @@
 
 > **"PC 없는 독립형 엣지 시스템: 138배 빠른 하드웨어 가속기 설계"**
 
-Zynq-7000 SoC를 활용하여 카메라 영상 속 객체를 **실시간으로 추적하여 중앙에 정렬(Alignment)**하고, 정렬된 객체를 **CNN 가속기(Inference)로 식별**하는 엣지 시스템입니다.
+Zynq-7000 SoC를 활용하여 카메라 영상 속 객체를 실시간으로 추적하여 중앙에 정렬(Alignment)하고, 정렬된 객체를 **CNN 가속기(Inference)로 식별**하는 엣지 시스템입니다.
 Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 스트리밍 아키텍처**를 적용하여 **Zero-Latency**를 달성했습니다.
 
 ---
@@ -21,7 +21,7 @@ Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 �
 | **FPGA (PL)** | **0.138 ms** | **~138x** | **Pipeline 병렬 연산 (Streaming)** |
 
 > **Why so fast?**
-> 외부 DDR 메모리를 거치지 않고, FPGA 내부의 **On-chip Memory(BRAM)**를 활용하여 데이터가 들어오는 즉시 연산이 완료되는 **DRAM-less Architecture**를 구현했습니다.
+> 외부 DDR 메모리를 거치지 않고, FPGA 내부의 On-chip Memory(BRAM)를 활용하여 데이터가 들어오는 즉시 연산이 완료되는 **DRAM-less Architecture**를 구현했습니다.
 
 ---
 
