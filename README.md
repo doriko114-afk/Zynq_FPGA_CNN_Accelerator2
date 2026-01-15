@@ -49,11 +49,11 @@ Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 �
 
 ### 1. Tracking & Alignment (Stage Demo)
 
-(images/stage.gif)  
+![Stage Demo](images/stage.gif)  
 
 
 ### 2. CNN Inference (CNN Demo)
-(images/video_i.gif)
+![CNN Demo](images/video_i.gif)
 
 
 ---
