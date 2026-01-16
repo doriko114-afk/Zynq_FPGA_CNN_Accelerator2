@@ -17,8 +17,8 @@ Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 �
 
 | Platform | Processing Time (Latency) | Speedup | Note |
 | :--- | :--- | :--- | :--- |
-| **Python (CPU)** | 19.21 ms | 1x | 순차적 메모리 접근 및 연산 |
-| **FPGA (PL)** | **0.138 ms** | **~138x** | **Pipeline 병렬 연산 (Streaming)** |
+| **Python (CPU)** | 138.165 us | 1x | 순차적 메모리 접근 및 연산 |
+| **FPGA (PL)** | **1.0 us** | **~138x** | **Pipeline 병렬 연산 (Streaming)** |
 
 > **Why so fast?**
 > 외부 DDR 메모리를 거치지 않고, FPGA 내부의 On-chip Memory(BRAM)를 활용하여 데이터가 들어오는 즉시 연산이 완료되는 **DRAM-less Architecture**를 구현했습니다.
