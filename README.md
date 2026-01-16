@@ -10,7 +10,7 @@ Software(CPU) 방식의 한계를 극복하기 위해 **Line Buffer 기반의 �
 ## Performance Highlight (핵심 성과)
 
 ###  Python(SW) vs FPGA(HW) 속도 비교
-가장 중요한 성과는 **순차 처리(CPU)**와 **병렬 처리(FPGA)**의 성능 차이를 정량적으로 검증한 것입니다.
+가장 중요한 성과는 순차 처리(CPU)와 병렬 처리(FPGA)의 성능 차이를 정량적으로 검증한 것입니다.
 
 ![Speed Comparison](images/speed_comparison.png)
 
